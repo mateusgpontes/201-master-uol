@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+
+section{
+    display: flex;
+}
+
+.noticia > .texto-assunto{
+    color: white;
+}
+
+.maior{
+    width: 50%;
+}
+
+.media{
+    width: 30%;
+}
+
+.menor{
+    width: 20%;
+}
+
+section > .maior > .colunas{
+    display: flex;
+}
+
+.maior > .noticia{
+    background-color: red; 
+}
+
+.media > .noticia{
+    background-color: mediumblue;
+}
+
+.noticia > #foto-james{
+    width: 100%;
+    justify-content: center;
+}
+
+.menor > .anuncio{
+    background-color: steelblue;
+}
+
+.anuncio > #foto-anuncio{
+    width: 100%;
+}
+
+.colunas{
+    background-color: gray;
+}
